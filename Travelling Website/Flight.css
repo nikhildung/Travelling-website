@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lilita One', cursive;
+}
+
+.container{
+    border: 2px solid red;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: linear-gradient(135deg, #71b7e6 , #9b59b6);   
+}
+
+.FullName{
+    margin: 8%;
+    font-size: 20px;
+}
+.FullName input{
+    margin: 5%;
+    font-size: 20px;
+}
+
+/* for the email */
+.Email{
+    margin: 8%;
+    font-size: 20px;
+}
+.Email input{
+    margin: 5%;
+    font-size: 20px;
+}
+
+/* for the Phone Number */
+.PhoneNumber{
+    margin: 8%;
+    font-size: 20px;
+}
+.PhoneNumber input{
+    margin: 5%;
+    font-size: 20px;
+}
+
+/* for the Gender */
+.Gender{
+    margin: 8%;
+    font-size: 20px;
+}
+.Gender input{
+    margin: 8%;
+    font-size: 20px;
+}
+
+/* for the slot */
+.Slot{
+    margin: 8%;
+    font-size: 20px;
+}
+.Slot input{
+    margin: 5%;
+    font-size: 20px;
+}
+/* .button{
+    margin: 5%;
+}  */
+
+
+.button1 button{
+    position: relative;
+    top: 10px;
+    left: 30px;
+    /* height: 1vh; */
+    background-color: cadetblue;
+    color: black;
+    cursor: pointer;
+
+}
+.button1 button:hover{
+    /* height: 4vh; */
+    background-color: chartreuse;
+}
+.Slotcheck{
+    position: relative;
+    top: -13px;
+    right: -100px;
+    background-color: cadetblue;
+    cursor: pointer;
+}
+.Slotcheck:hover{
+    background-color: chartreuse;
+
+}

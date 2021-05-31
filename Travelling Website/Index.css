@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lilita One', cursive;
+
+}
+
+
+/* for the whole html page */
+html{
+    height: 100vh;
+    /* background-color: #a96e5b; */
+}
+
+/* for the header */
+header{
+    display: flex;
+    color: black;
+    background-color:   #24252A;
+    height: 10%;
+    position: fixed;
+    width: 100%;
+}
+
+/* for the img */
+.left{
+    position: relative;
+    left: 5%;
+    top: 8%;
+}
+
+/* for link */
+.middle{
+    position: relative;
+    left: 30%;
+    top: 8%;
+}
+
+/* h1 ke karan hiw word spacing mil hai gha */
+.middle h1{
+    word-spacing: 10vh;
+}
+
+/* for the link */
+.middle a{
+    font-family: 'Lilita One', cursive;
+    color: white;
+    font-weight: 300;
+    font-size: 1em;
+    font-style: oblique;
+    text-decoration: none;
+}
+
+/* hovering fir the link */
+a:hover{
+    color: blue;
+}
+
+/* Jabhi Tum link pai click kar ho ghe */
+a:active{
+    color: greenyellow;    
+
+}
+
+/* This Completes our navbar */
+
+.content{
+    background-repeat: no-repeat;
+
+}
+/* This will set the text on image */
+.content1{
+    background-color: #a96e5b;
+}
+.content1 pre{
+    position: relative;
+    top: 10%;
+    /* font-family: 'Lilita One', cursive; */
+    color: white;
+    /* background-color: #24252A; */
+    /* font-weight: 300; */
+    font-size: 2em;
+    font-style: oblique;
+    text-decoration: none;
+}
+/* This will design the .formsubmission button */
+.content1 button{
+    border: 2px solid red;
+    border-radius: 46%;
+    width: 20vw;
+    background-color: rgb(252, 67, 0);    
+    position: relative;
+    top: -2em;
+    left: 70%;
+    color: #24252A;
+    background-color: #c2cad0;
+    font-family: 'Lilita One', cursive;
+    font-weight: 300;
+    font-size: 2em;
+    font-style: oblique;
+    cursor: pointer;
+}
+.content1 button:hover{
+    background-color:#66fcf1;
+    border-radius: 46%;
+    border: 2px solid red;
+    /* height: 140px; */
+}
+* {box-sizing:border-box}
+
+        /* Slideshow container */
+        
+
+        /* Hide the images by default */
+        .mySlides {
+        width: 10px;
+        }
+
+/* For Clients */
+.clients h1{
+    margin: 5em;
+    display: flex;
+    justify-content: center;
+    
+}
+.Imginsideclients{
+    display: grid;
+    grid-template-columns: 2em 2em 2em 2em 2em 2em;
+    grid-gap: 23em;
+    
+
+}
+
+/* from Here on there is the .Transport  */
+.Transport{
+    margin: 2em;
+    padding: 1em;
+    position:relative;
+    top: 3em;
+    font-family: 'Lilita One', cursive;
+    color:white;
+    /* opacity: 0.6; */
+    font-size: 2em;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(250px,400px));
+    grid-gap: 10%;
+ 
+}
+.AirTransport{
+    /* grid-gap: 50px; */
+    background-color: #24252A;
+
+}
+.RailwayTransport{
+    /* grid-gap: 50px; */
+    background-color: #24252A;
+
+}
+.WaterTransport{
+    /* grid-gap: 50px; */   
+    background-color: #24252A;
+
+
+}
+
+/* for the button */
+.reservation{
+    margin: 200px;
+    
+    display: grid;
+    grid-template-rows: repeat(4,80px);
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+  /* This is for the flight */
+  .flightreservation{
+    background: #3498db;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Lilita One', cursive;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+    
+  .flightreservation:hover {
+    background-color: #87db00;
+    color: red;
+    text-decoration: none;
+    height: 60px;
+  }
+  
+  /* This is for the flight */
+  .Crusereservation{
+    background: #3498db;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Lilita One', cursive;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+    
+  .Crusereservation:hover {
+    background-color: #87db00;
+    color: red;
+    text-decoration: none;
+    height: 60px;
+  }
+  
+  /* This is for the flight */
+  .Hotelreservation{
+    background: #3498db;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Lilita One', cursive;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+    
+  .Hotelreservation:hover {
+    background-color: #87db00;
+    color: red;
+    text-decoration: none;
+    height: 60px;
+  }
+  
+  /* This is for the Cruse */
+  .Vehiclereservation{
+    background: #3498db;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Lilita One', cursive;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+  }
+    
+  .Vehiclereservation:hover {
+    background-color: #87db00;
+    color: red;
+    height: 60px;
+    text-decoration: none;
+  }
+  
+/* This is for the footer part Last Energy Energy */
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(200px,auto));
+    width: 100%;
+    color: white;
+    background-color: #24252A;
+
+}
+.footer-left{
+    font-family: 'Lilita One', cursive;
+}
+.footer-links a{
+    text-decoration: none;
+
+}
+
+
+.footer h3, a, pre{
+    color: white;
+    font-family: 'Lilita One', cursive;
+    /* color: teal; */
+    /* font-weight: 300; */
+    font-size: 1.5em;
+    font-style: oblique;
+    text-decoration: none;
+}
+
